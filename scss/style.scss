@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f172a;
+}
+
+
+$background-color: #0f172a;
+$primary-color: #f1f5f9;
+$secondary-color: #22d3ee;
+
+$font-family-nav: "Montserrat", sans-serif;
+$font-family-body: "Poppins", sans-serif;
+$font-family-footer: "Inter", sans-serif;
+
+
+
+
+// navbar section
+
+@import "navbar.scss";
+
+
+
+// hero section
+@import "hero.scss";
+
+
+// about section
+@import "about.scss";
+
+
+// skills section
+@import "skills.scss";
+
+
+
+
+
+
+
+
+
+

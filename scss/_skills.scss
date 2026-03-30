@@ -1,0 +1,126 @@
+#skills{
+    padding: 100px 0;
+
+    .header-content{
+         h2{
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        color: $primary-color;
+        font-family: $font-family-nav;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+        color: rgba(241, 245, 249, 0.7);
+        font-family: $font-family-body;
+        width: 550px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    }
+
+
+    .Full-stack-part{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        margin-top: 70px;
+    }
+    .frontend-part{
+        background-color: #0f172a;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid $secondary-color;
+        padding: 40px 100px;
+         box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: $font-family-body;
+        text-align: center;
+        color: $primary-color;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 30px;
+        column-gap: 50px;
+        text-align: center;
+        margin-top: 50px;
+
+        .skills-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            i{
+                font-size: 40px;
+                color: $secondary-color;
+                margin-bottom: 10px;
+                cursor: pointer;
+                
+            }
+            p{
+                font-size: 16px;
+                font-family: $font-family-body;
+                color: $primary-color;
+                font-weight: 400;
+            }
+            img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+
+            }
+        }
+    }
+
+    .backend-part{
+        background-color: #0f172a;
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid $secondary-color;
+        padding: 40px 100px;
+        box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+    }
+    h3{
+        font-size: 30px;
+        font-weight: 600;
+        font-family: $font-family-body;
+        text-align: center;
+        color: $primary-color;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .items{
+         display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+        column-gap: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    span{
+        color: #1a1a1a;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: $secondary-color;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+}
