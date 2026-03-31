@@ -14,10 +14,11 @@ nav {
     letter-spacing: 1.3px;
     text-transform: capitalize;
 }
-.logo a:focus, .logo a:hover{
+.logo a:focus,
+.logo a:hover{
     color: $secondary-color;
 }
-ul {
+nav ul {
   column-gap: 32px;
 }
  .nav-link {
@@ -57,7 +58,7 @@ ul {
     column-gap: 30px;
 
 }
-}
+
 
 
 

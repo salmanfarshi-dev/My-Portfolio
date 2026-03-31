@@ -21,27 +21,46 @@ $font-family-footer: "Inter", sans-serif;
 
 
 // navbar section
-
-@import "navbar.scss";
+@import"navbar.scss";
 
 
 
 // hero section
-@import "hero.scss";
+@import"hero.scss";
 
 
 // about section
-@import "about.scss";
+@import"about.scss";
 
 
 // skills section
-@import "skills.scss";
+@import"skills.scss";
+
+
+
+// services section
+@import"services.scss";
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// responsive section
+@import"responsive.scss";
 
 
 
