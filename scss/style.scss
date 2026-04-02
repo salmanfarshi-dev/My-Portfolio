@@ -42,6 +42,14 @@ $font-family-footer: "Inter", sans-serif;
 @import"services.scss";
 
 
+// contact section
+@import"contact.scss";
+
+
+// footer section 
+@import"footer.scss";
+
+
 
 
 
@@ -65,3 +73,15 @@ $font-family-footer: "Inter", sans-serif;
 
 
 
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
