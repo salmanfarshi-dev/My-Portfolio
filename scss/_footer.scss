@@ -1,0 +1,168 @@
+#footer-section{
+    padding: 100px 0 10px 0;
+    background: rgba(129, 93, 243,0.5);
+
+
+    .footer-logo{
+        margin-right: 80px;
+        a{
+    color:#22d3ee;
+    font-size: 28px;
+    font-weight: 600;
+     font-family: "Orbitron", sans-serif;
+    letter-spacing: 1.3px;
+    text-transform: capitalize;
+   
+        }
+        h4{
+            font-size: 18px;
+            color: #fff;
+            font-weight: 500;
+            text-transform: capitalize;
+            font-family: $font-family-footer;
+            margin-top: 10px;
+        }
+        p{
+            font-size: 14x;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.5);
+            padding: 0;
+            margin: -5px 0 10px 0;
+            text-transform: capitalize;
+            font-family: $font-family-footer;
+
+            span{
+                color: #fff;
+            }
+        }
+
+        .icons{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin: 20px 0;
+
+            a{
+     color: $secondary-color;
+     font-size: 14px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid $secondary-color;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      text-shadow: 0 0 10px $secondary-color;
+      position: relative;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $secondary-color;
+        color: #1a1a1a;
+      }
+            }
+        }
+
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+        .features{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+
+
+            h5{
+                font-size: 20px;
+               font-weight: 500;
+                letter-spacing: 1px;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: $font-family-body;
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                margin: 15px 0;
+
+                li{
+                    color: rgba(255, 255, 255, 0.6);
+                    margin-top: 8px ;
+                    font-size: 16px;
+                    font-family: $font-family-footer;
+                    font-weight: 400;
+                    cursor: pointer;
+                    transition: 0.3s ease;
+
+                    &:hover{
+                        color: $secondary-color;
+                    }
+                }
+            }
+
+            .contact{
+                display: flex;
+                flex-direction: column;
+                margin: 15px 0;
+
+                a{
+                    text-decoration: none;
+                     color: rgba(255, 255, 255, 0.6);
+                     margin-bottom: 8px;
+                     display: flex;
+                     font-size: 16px;
+                     align-items: center;
+                     font-family: $font-family-footer;
+                     transition: 0.3s ease;
+
+                     &:hover{
+                        color: $secondary-color;
+                     }
+                     
+
+                     i{
+                        color: $secondary-color;
+                        margin-right: 10px;
+                        font-size: 14px;
+                     }
+                }
+                
+            }
+        }
+    }
+ 
+
+
+    .copy-right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        p{
+             color: rgba(244, 244, 250, 0.6);
+             font-size: 14px;
+             font-weight: 400;
+             font-family: $font-family-footer;
+        }
+    }
+    .copy-right::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #00f7ff;
+        box-shadow: 0 0 10px #00f7ff,
+              0 0 20px #00f7ff,
+              0 0 40px #00f7ff;
+        top: -30px;
+        
+ 
+    }
+
+}
