@@ -250,52 +250,171 @@
 
 //service section start
 
+
 #services{
     padding: 60px 0;
-
-    .card-section{
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
-
-
-    .CarD{
-        margin: 0 auto;
-        h5{
-            font-size: 16px;           
+    .header-content{
+        .work-active{
+            margin-bottom: 10px;
+            p{
+                font-size: 14px;
+                word-spacing: 1px;
+            }
         }
-        p{
-            font-size: 12px;
-            width: 100%;
-            line-height: 20px;
-        }       
+        .designer-part{
+            grid-template-columns: 1fr;
+            border-bottom: 1px solid rgba(124, 143, 207, 0.1);
+            padding-bottom: 40px;
+
+
+            h2{
+                font-size: 38px;
+                line-height:45px;
+                width: 80%;
+
+                span{
+                    color: #0fd8f7;
+                    font-family: $font-family-nav;
+                }
+            }
+            .divited{
+                P{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .mpilles{
+                    gap: 12px;
+
+                    .mp{
+                        padding: 5px 10px; 
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .icons-part{
+        margin-top: 30px;
+        padding-bottom: 30px;
+        .icons-div{
+            gap: 10px;
+            padding: 5px 15px;   
+            .ty{
+                height: 5px;
+                width: 5px;
+            }
+        }
+    }
+    .Services-card{
+        grid-template-columns: repeat(1, 1fr);
+        .Card-item.ti{
+            margin-top: 20px;
+            .onlly-me{
+                flex-direction: column;
+                row-gap: 20px;
+                .content{
+                    p{
+                    width: 100%;
+                    line-height: 24px;
+                }
+                }
+                 .Button-part{
+                    button{
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }                      
+                }
             }          
         }
-    }
-    .button-part{
-        gap: 15px;
-        .View-button{
-            padding: 5px 12px;
-            font-size: 12px;
+        i{
+            width: 30px;
+            height: 30px;       
         }
-        .View-github{
-            padding: 4px 12px;
-            font-size: 12px;
+        h3{
+            margin:15px 0;
+            font-size: 30px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .persintix{
+            .built{
+                margin: 10px 0;
+                h6{
+                    font-size: 30px;
+                }
+                span{
+                    color: rgba(241, 245, 249, 0.6);
+                    font-size: 12px;
+                }
+            }
+        }
+        .icon-items{
+            gap: 10px;
+            margin: 10px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        .hire-me{
+            gap: 15px;
+            margin-top: 20px;
+            button{
+                font-size: 12px;          
+            }
+            i{
+                height: 20px;
+                width: 20px;
+                font-size: 10px;
+            }
         }
     }
-.service-header{
-    h2{
-         font-size: 30px;
-        margin-bottom: 15px;
-    }
-    p{
-         font-size: 14px;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 24px;
-    }
+    .one{
+  grid-column: span 6; 
+}
+.two{
+  grid-column: span 6; 
 }
 
+/* 2nd row */
+.three,
+.four,
+.five{
+  grid-column: span 6; 
+}
+
+.six{
+  grid-column: span 6; 
+}
+.seven{
+    grid-column: span 6;
+}
+    h4{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    .my-concept{
+        gap: 15px;
+        margin-top: 20px;
+        .lists{
+            li{
+                font-size: 10px;
+                height: 20px;
+                width: 20px;
+            }
+            .row-text{
+                span{
+                    color: #fff;
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
 
 
 //service section end
@@ -712,55 +831,171 @@
 
 //service section start
 
+
 #services{
     padding: 70px 0;
-
-    .card-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-top: 50px;
-
-
-    .CarD{
-        width: 250px;
-        margin: 0 auto;
-
-        h5{
-            font-size: 16px;           
+    .header-content{
+        .work-active{
+            margin-bottom: 10px;
+            p{
+                font-size: 14px;
+                word-spacing: 1px;
+            }
         }
-        p{
-            font-size: 12px;
-            width: 100%;
-            line-height: 20px;
-        }       
+        .designer-part{
+            grid-template-columns: 1fr;
+            border-bottom: 1px solid rgba(124, 143, 207, 0.1);
+            padding-bottom: 40px;
+
+
+            h2{
+                font-size: 38px;
+                line-height:45px;
+                width: 80%;
+
+                span{
+                    color: #0fd8f7;
+                    font-family: $font-family-nav;
+                }
+            }
+            .divited{
+                P{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .mpilles{
+                    gap: 12px;
+
+                    .mp{
+                        padding: 5px 10px; 
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .icons-part{
+        margin-top: 30px;
+        padding-bottom: 30px;
+        .icons-div{
+            gap: 10px;
+            padding: 5px 15px;   
+            .ty{
+                height: 5px;
+                width: 5px;
+            }
+        }
+    }
+    .Services-card{
+        grid-template-columns: repeat(1, 1fr);
+        .Card-item.ti{
+            margin-top: 20px;
+            .onlly-me{
+                flex-direction: column;
+                row-gap: 20px;
+                .content{
+                    p{
+                    width: 100%;
+                    line-height: 24px;
+                }
+                }
+                 .Button-part{
+                    button{
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }                      
+                }
             }          
         }
-    }
-    .button-part{
-        gap: 15px;
-        .View-button{
-            padding: 5px 12px;
-            font-size: 12px;
+        i{
+            width: 30px;
+            height: 30px;       
         }
-        .View-github{
-            padding: 4px 12px;
-            font-size: 12px;
+        h3{
+            margin:15px 0;
+            font-size: 30px;
+        }
+        p{
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .persintix{
+            .built{
+                margin: 10px 0;
+                h6{
+                    font-size: 30px;
+                }
+                span{
+                    color: rgba(241, 245, 249, 0.6);
+                    font-size: 12px;
+                }
+            }
+        }
+        .icon-items{
+            gap: 10px;
+            margin: 10px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        .hire-me{
+            gap: 15px;
+            margin-top: 20px;
+            button{
+                font-size: 12px;          
+            }
+            i{
+                height: 20px;
+                width: 20px;
+                font-size: 10px;
+            }
         }
     }
-.service-header{
-    h2{
-         font-size: 32px;
-        margin-bottom: 15px;
-    }
-    p{
-         font-size: 15px;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 24px;
-    }
+    .one{
+  grid-column: span 6; 
+}
+.two{
+  grid-column: span 6; 
 }
 
+/* 2nd row */
+.three,
+.four,
+.five{
+  grid-column: span 6; 
+}
+
+.six{
+  grid-column: span 6; 
+}
+.seven{
+    grid-column: span 6;
+}
+    h4{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    .my-concept{
+        gap: 15px;
+        margin-top: 20px;
+        .lists{
+            li{
+                font-size: 10px;
+                height: 20px;
+                width: 20px;
+            }
+            .row-text{
+                span{
+                    color: #fff;
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
 
 
 //service section end
@@ -1146,55 +1381,164 @@
 
 //service section start
 
+
 #services{
-    padding: 90px 0;
-
-    .card-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 40px;
-    margin-top: 50px;
-
-
-    .CarD{
-        width: 300px;
-        margin: 0 auto;
-
-        h5{
-            font-size: 16px;           
+    padding: 80px 0;
+    .header-content{
+        .work-active{
+            margin-bottom: 10px;
+            p{
+                font-size: 14px;
+                word-spacing: 1px;
+            }
         }
-        p{
-            font-size: 12px;
-            width: 100%;
-            line-height: 20px;
-        }       
+        .designer-part{
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 50px;
+
+
+            h2{
+                font-size: 40px;
+                line-height:45px;
+                width: 80%;
+            }
+            .divited{
+                P{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .mpilles{
+                    gap: 12px;
+
+                    .mp{
+                        padding: 5px 10px; 
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .icons-part{
+        margin-top: 40px;
+        padding-bottom: 40px;
+        .icons-div{
+            gap: 10px;
+            padding: 5px 15px;   
+            .ty{
+                height: 6px;
+                width: 6px;
+            }
+        }
+    }
+    .Services-card{
+        grid-template-columns: repeat(6, 1fr);
+        .Card-item.ti{
+            margin-top: 20px;
+            .onlly-me{
+                .content{
+                    p{
+                    width: 80%;
+                    line-height: 24px;
+                }
+                }
+                 .Button-part{
+                    button{
+                        padding: 5px 15px;
+                        font-size: 15px;
+                    }                      
+                }
             }          
         }
-    }
-    .button-part{
-        gap: 15px;
-        .View-button{
-            padding: 5px 12px;
-            font-size: 12px;
+        i{
+            width: 35px;
+            height: 35px;       
         }
-        .View-github{
-            padding: 4px 12px;
-            font-size: 12px;
+        h3{
+            margin:15px 0;
+            font-size: 35px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .persintix{
+            .built{
+                margin: 13px 0;
+                h6{
+                    font-size: 35px;
+                }
+                span{
+                   
+                    font-size: 13px;
+                }
+            }
+        }
+        .icon-items{
+            gap: 10px;
+            margin: 5px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        .hire-me{
+            gap: 16px;
+            margin-top: 20px;
+            button{
+                font-size: 14px;          
+            }
+            i{
+                height: 25px;
+                width: 25px;
+                font-size: 10px;
+                
+            }
         }
     }
-.service-header{
-    h2{
-         font-size: 32px;
-        margin-bottom: 15px;
-    }
-    p{
-         font-size: 15px;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 24px;
-    }
+    .one{
+  grid-column: span 4; 
+}
+.two{
+  grid-column: span 2; 
 }
 
+
+.three,
+.four,
+.five{
+  grid-column: span 3; 
+}
+
+.six{
+  grid-column: span 3; 
+}
+.seven{
+    grid-column: span 6;
+}
+    h4{
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    .my-concept{
+        gap: 15px;
+        margin-top: 20px;
+        .lists{
+            li{
+                font-size: 10px;
+                height: 20px;
+                width: 20px;
+            }
+            .row-text{
+                span{
+                    color: #fff;
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
 
 
 //service section end
@@ -1375,38 +1719,170 @@
 // about section end
 
 
+
 //service section start
 
+
 #services{
+    padding: 80px 0;
+    .header-content{
+        .work-active{
+            margin-bottom: 10px;
+            p{
+                font-size: 16px;
+                word-spacing: 1px;
+            }
+        }
+        .designer-part{
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 50px;
 
 
-    .card-section{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 40px;
-    margin-top: 50px;
+            h2{
+                font-size: 45px;
+                line-height:48px;
+                width: 80%;
+            }
+            .divited{
+                P{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .mpilles{
+                    gap: 14px;
 
+                    .mp{
+                        padding: 5px 12px; 
+                    }
+                    
+                }
+            }
+        }
+    }
 
-    .CarD{
-        width: 300px;
-        margin: 0 auto;   
+    .icons-part{
+        margin-top: 40px;
+        padding-bottom: 40px;
+        .icons-div{
+            gap: 10px;
+            padding: 5px 15px;   
+            .ty{
+                height: 8px;
+                width: 8px;
+            }
+        }
+    }
+    .Services-card{
+        grid-template-columns: repeat(6, 1fr);
+        .Card-item.ti{
+            margin-top: 20px;
+            .onlly-me{
+                .content{
+                    p{
+                    width: 80%;
+                    line-height: 24px;
+                }
+                }
+                 .Button-part{
+                    button{
+                        padding: 8px 18px;
+                        font-size: 16px;
+                    }                      
+                }
             }          
         }
+        i{
+            width: 40px;
+            height: 40px;       
+        }
+        h3{
+            margin:18px 0;
+            font-size: 38px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 25px;
+        }
+        .persintix{
+            .built{
+                margin: 13px 0;
+                h6{
+                    font-size: 35px;
+                }
+                span{
+                   
+                    font-size: 13px;
+                }
+            }
+        }
+        .icon-items{
+            gap: 10px;
+            margin: 5px 0 15px 0;
+            flex-wrap: wrap;
+        }
+        .hire-me{
+            gap: 16px;
+            margin-top: 20px;
+            button{
+                font-size: 14px;          
+            }
+            i{
+                height: 25px;
+                width: 25px;
+                font-size: 10px;
+                
+            }
+        }
     }
-    .button-part{
+    .one{
+  grid-column: span 4; 
+}
+.two{
+  grid-column: span 2; 
+}
+
+
+.three,
+.four,
+.five{
+  grid-column: span 3; 
+}
+
+.six{
+  grid-column: span 3; 
+}
+.seven{
+    grid-column: span 6;
+}
+    h4{
+        font-size: 30px;
+        margin: 18px 0;
+    }
+    .my-concept{
         gap: 15px;
-        .View-button{
-            padding: 5px 12px;
-            font-size: 12px;
-        }
-        .View-github{
-            padding: 4px 12px;
-            font-size: 12px;
+        margin-top: 20px;
+        .lists{
+            li{
+                font-size: 12px;
+                height: 25px;
+                width: 25px;
+            }
+            .row-text{
+                span{
+                    color: #fff;
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
         }
     }
+}
 
 
-    // service secton end
+//service section end
 
     // skills section start
 
