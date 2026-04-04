@@ -1,0 +1,199 @@
+#project{
+    padding: 100px 0;
+
+    .header-content{
+        text-align: center;
+
+        h2{
+        font-size: 48px;
+        font-weight: 600;
+        text-align: center;
+        color: $primary-color;
+        font-family: $font-family-nav;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        }
+        p{
+        font-size: 18px;
+        color: rgba(241, 245, 249, 0.7);
+        font-family: $font-family-body;
+        width: 550px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 32px;
+        font-weight: 400;
+        }
+    }
+
+    .project-shokej{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0 40px 0;
+
+        h3{
+            font-size: 30px;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 500;
+            font-family: $font-family-body;
+        }
+
+        button{
+            background-color: transparent;
+            border: none;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $font-family-body;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            transition: 0.3s ease;
+
+            i{
+                left: 10px;
+                position: relative;
+                top: 50%;
+                transition: 0.3s ease;
+                transform: translate(-50%);
+                opacity: 0;
+               
+            }
+        }
+        button:hover{
+             color: #22d3eeae;
+        }
+        button:hover i{
+            left: 15px;
+            opacity: 1;
+        }
+    }
+
+    .card-parts{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        align-items: center;
+
+
+        .Card{
+            position: relative;
+            padding: 30px 20px;
+            height: 100%;
+            background: #141e33;
+            overflow: hidden;
+            border: 1px solid;
+            border-radius: 20px;
+            transition: border-color 0.2s, background 0.3s, transform 0.25s;
+
+            .image-part{
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 20px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 20px;
+                    opacity: 0.6;
+                }
+            }
+
+            .feature{
+                margin: 20px 0 10px 0;
+                color: #22d3eeae;
+                font-size: 12px;
+                background: rgba(34, 211, 238, 0.1);
+                font-weight: 500;
+                display: inline-block;
+                padding: 5px 12px;
+                border-radius: 20px;
+                border: 1px solid rgba(34, 211, 238, 0.482);
+            }
+            .feature.pi{
+                background: rgba(75, 34, 238, 0.1);
+                color:rgb(75, 34, 238) ;
+                border-color: rgba(75, 34, 238, 0.482);
+            }
+
+            .feature.li{
+                background: rgba(135, 25, 239, 0.1);
+                color:rgb(135, 25, 239) ;
+                border-color: rgba(135, 25, 239, 0.482);
+            }
+
+            h3{
+                font-size: 28px;
+                color: #fff;
+                font-family: $font-family-footer;
+                font-weight: 600;
+            }
+            .p-tag{
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 400;
+                margin: 10px 0 20px 0;
+                font-family: $font-family-body;
+                width: 100%;
+            }
+
+            .cart-footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .skills{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+
+                    span{
+                        color: rgba(255, 255, 255, 0.3);
+                        font-size: 12px;
+                        font-family: $font-family-footer;
+                        font-weight: 400;
+                    }
+                    .circul{
+                        width: 5px;
+                        height: 5px;
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-radius: 50%;
+                    }
+                }
+
+              i{
+                color: rgba(255, 255, 255,0.3);
+                font-size: 12px;
+                width: 30px;
+                height: 30px;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                transform: rotate(-45deg);
+                cursor: pointer;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                transition: 0.3s ease;
+              }
+              i:hover{
+                border-color: #22d3eeae;
+                background: rgba(34, 211, 238, 0.1);
+                color: #22d3eeae;
+
+              }
+
+            }
+        }
+
+        .Card:hover{
+              border-color:  rgba(241,245,249,0.11);
+              background:  #1a2540;
+            transform: translateY(-4px);
+        }
+    }
+}
