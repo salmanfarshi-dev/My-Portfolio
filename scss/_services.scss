@@ -248,8 +248,19 @@
 
                 .content{
                     flex: 1;
+
+                    h3{
+                        width: 400px;
+                        line-height: 48px;
+
+                        b{
+                            color: #0fd8f7;
+                            font-weight: 400;
+                            font-style: italic;
+                        }
+                    }
                     p{
-                    width: 80%;
+                    width: 60%;
                     line-height: 28px;
                     margin: 0;
                 }
