@@ -23,103 +23,229 @@
     }
     }
 
-
-    .Full-stack-part{
-        display: flex;
-        justify-content: center;
-        gap: 30px;
-        align-items: center;
-        margin-top: 70px;
-    }
-    .frontend-part{
-        background-color: #0f172a;
-        border-radius: 10px;
-        outline: none;
-        border: 2px solid $secondary-color;
-        padding: 40px 100px;
-         box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
-
-         h3{
-        font-size: 30px;
-        font-weight: 600;
-        font-family: $font-family-body;
-        text-align: center;
-        color: $primary-color;
-        text-transform: capitalize;
-        margin-bottom: 20px;
-    }
-    }
-    
-    .items{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 30px;
-        column-gap: 50px;
-        text-align: center;
+    .experiences-part{
         margin-top: 50px;
+        display: flex;
+        width: 100%;
+        align-items: center;
 
-        .skills-item{
+        .technologies{
+            width: 25%;
+            background: #141e33;
+            padding: 10px 20px;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            
+            border-left: 1px solid rgba(241,245,249,0.11);
+            transition: all 0.3s ease;
 
-            i{
+            .number{
                 font-size: 40px;
-                color: $secondary-color;
-                margin-bottom: 10px;
-                cursor: pointer;
-                
+                color: #1fbdd5;
+                font-weight: 700;
+                font-family: $font-family-nav;
             }
-            p{
-                font-size: 16px;
-                font-family: $font-family-body;
-                color: $primary-color;
-                font-weight: 400;
+            span{
+                color: rgba(255, 255, 255, 0.4);
             }
+            
+          
         }
-    }
 
-    .backend-part{
-        background-color: #0f172a;
-        border-radius: 10px;
-        outline: none;
-        border: 2px solid $secondary-color;
-        padding: 40px 100px;
-        box-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+        .technologies:hover{
+            background:  #1a2540;
+        }
+        .technologies:first-child{
+            border: none;
+            border-radius: 20px 0 0 20px;
+        }
+        
+        .technologies:last-child{
+            border-radius:  0 20px 20px 0;
+        }
+        
 
-           h3{
-        font-size: 30px;
-        font-weight: 600;
-        font-family: $font-family-body;
-        text-align: center;
-        color: $primary-color;
-        text-transform: capitalize;
-        margin-bottom: 20px;
+       
     }
-     .items{
-         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    
+
+    .card-part{
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
         row-gap: 20px;
-        column-gap: 50px;
-        text-align: center;
-        margin-top: 50px;
+        column-gap: 20px;
+
+        .Card{
+             background: #141e33;
+             padding: 30px 20px;
+             border-radius: 20px;
+              border: 1px solid rgba(241,245,249,0.1);
+              transition: border-color .2s , color 0.34s, transform .25s  ease;
+              
+              i{
+                width: 40px;
+                height: 40px;
+                border-radius: 10px;
+                background: rgba(31, 189, 213, 0.3);
+                color: white;
+                border: 1px solid rgba(31, 189, 213, 0.5) ;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+              }
+
+              .services{
+                color: #1fbdd5;
+                margin: 10px 0;
+                font-weight: 400;
+                font-size: 14px;
+                font-family: $font-family-footer;
+              }
+
+              h3{
+                color: #fff;
+                font-weight: 600;
+                font-size: 24px;
+                font-family: $font-family-nav;
+              }
+              .p-tap{
+                color: rgba(255, 255, 255, 0.3);
+                font-size: 14px;
+                margin: -2px 0;
+                font-family: $font-family-body;
+                width: 100%;
+              }
+              .icons-part{
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin: 15px 0;
+                flex-wrap: wrap;
+
+                span{
+                    background: rgba(26, 37, 64, 0.5);
+                    padding: 2px 12px;
+                    border-radius: 15px;
+                    color:rgba(255, 255, 255, 0.4);
+                    border: 1px solid rgba(38, 47, 144, 0.296);
+                    font-family: $font-family-body;
+                    font-size: 14px;
+                }
+              }
+
+              .persentex{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                margin-top: 20px;
+
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1px;
+                    align-items: start;
+                    width: 100%;
+
+
+                      .name-show{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    h6{
+                        color: rgba(255, 255, 255, 0.8);
+                        font-size: 16px;
+                        font-family: $font-family-body;
+                    }
+                    .count-persentix{
+                        color: rgba(255, 255, 255, 0.2);
+                        font-family: $font-family-body;
+                        font-size: 12px;
+                    }
+                }
+
+                span{
+                    width: 100%;
+                    height: 2px;
+                    background: rgba(255, 255, 255, 0.1);
+                    border-radius: 10px;
+                    position: relative;
+                }
+                span::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: rgba(255, 255, 255, 0.4);
+                    width: 95%;
+                    height: 2px;
+                    border-radius: 10px;
+                }
+                span.li::before{
+                    background: #1fbdd5;
+                    width: 80%;
+                }
+                span.pi::before{
+                    background: #8373fc;
+                    width: 75%;
+                }
+                span.ly::before{
+                    background: #b184fb;
+                    width: 58%;
+                }
+                span.ti::before{
+                     background: #b184fb;
+                    width: 55%;
+                }
+                span.ty::before{
+                     background: #b184fb;
+                    width: 58%;
+                }
+                }
+              
+
+                
+              }
+
+        }
+     .Card.five{
+        .connect{
+            color: #bc56eb;
+            margin-bottom: 5px;
+            font-family: $font-family-body;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        i{
+            background: transparent;
+            border: none;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+     }
+        .Card:hover{
+             background:  #1a2540;
+             border-color: rgba(241,245,249,0.3);
+             transform: translateY(-10px);
+             box-shadow: 0 0 20px rgba(31, 189, 213, 0.1);
+        }
+
+
+
     }
-    span{
-        color: #1a1a1a;
-        font-size: 20px;
-        font-weight: 700;
-        background-color: $secondary-color;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 10px;
-        cursor: pointer;
+    
+    .one{
+        grid-column: span 5;
     }
+    .two{
+        grid-column: span 3;
     }
- 
+    .three, .four, .five, .six{
+        grid-column: span 2;
+    }
+
    
 }
