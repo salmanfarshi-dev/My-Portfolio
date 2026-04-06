@@ -119,7 +119,8 @@
               .icons-part{
                 display: flex;
                 align-items: center;
-                gap: 4px;
+               column-gap: 5px;
+               row-gap: 10px;
                 margin: 15px 0;
                 flex-wrap: wrap;
 
@@ -131,6 +132,16 @@
                     border: 1px solid rgba(38, 47, 144, 0.296);
                     font-family: $font-family-body;
                     font-size: 14px;
+                }
+
+                span.st{
+                    background: rgba(131, 115, 252, 0.2);
+                    border-color: rgba(131, 115, 252,0.3);
+                    color: rgba(255,255,255, 0.5);
+                }
+                span.ss{
+                    background: rgba(188, 86, 235, 0.2);
+                    border-color: rgba(188, 86, 235,0.5);
                 }
               }
 

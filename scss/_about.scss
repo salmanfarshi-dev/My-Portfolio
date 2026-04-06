@@ -11,109 +11,135 @@
         text-transform: capitalize;
         margin-bottom: 20px;
     }
-    p{
-        font-size: 18px;
-        color: rgba(241, 245, 249, 0.7);
-        font-family: $font-family-body;
-        width: 750px;
-        margin: 0 auto;
-        text-align: center;
-        line-height: 32px;
-        font-weight: 400;
-    }
    }
-}
 
-.about-content{
+
+   .about-content{
     display: flex;
-    align-items: start;
     justify-content: space-between;
-    margin-top: 80px;
+    align-items: start;
+    margin: 100px 0;
 
-    .about-image{
-        width: 500px;
-        height: 300px;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 0 10px $secondary-color;
-
+    .image{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 350px;
+       height: 350px;
+       background: #1a2540;
+       border-radius: 20px;
+       border: 1px solid rgba(241,245,249,0.2);
+  
         img{
-            width: 100%;
-            height: 100%;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
             object-fit: cover;
+            border: 2px solid rgba(131, 115, 252, 1);
         }
     }
-    .about-item{
+
+    .idendety{
+        color: #22d3ee;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: $font-family-footer;
+        letter-spacing: 2px;
+    }
+
+    h3{
+        color: #fff;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: $font-family-body;
+    }
+
+    p{
+        margin: 10px 0 20px 0;
+        color: rgba(255, 255, 255, 0.5);
+        width: 600px;
+        font-family: $font-family-body;
+    }
+   .Card-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:10px 0 20px 0;
+    row-gap: 20px;
+    column-gap: 20px;
+   }
+   .Card{
+    background: rgba(26, 37, 64, 0.6);
+    padding: 20px 30px;
+    border-radius: 20px;
+
+    i{
+        background: rgba(34, 211, 238, 0.2);
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: #fff;
+        border: 1px solid rgba(34, 211, 238, 0.2);
+    }
 
-        .card-section{
-            display: flex;
-            align-items: center;
-            gap: 30px;
+    .text{
+        color: #fff;
+        margin: 10px 0 0 0;
+        font-weight: 500;
+        font-size: 18px;
+        font-family: $font-family-footer;
+    }
+    .head{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        font-family: $font-family-body;
+    }
 
-            .Card{
-                background-color: #fff;
-                padding: 20px 40px;
-                border-radius: 10px;
-                text-align: center;
-                box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  
+   }
 
-                i{
-                    font-size: 20px;
-                    color: $secondary-color;
-                }
-                h3{
-                    font-size: 24px;
-                    font-weight: 500;
-                    text-transform: capitalize;
-                    font-family: $font-family-body;
-                    margin: 10px 0;
-                }
-                p{
-                    font-size: 16px;
-                    color: #1a1a1a;
-                    width: 230px;
-                    text-align: center;
-                    font-weight: 400;
-                    margin: 0 auto;
-                    font-family: $font-family-body;
-                    line-height: 28px;
-                }
-            }
-        }
+     .button{
+        display: flex;
+        align-items: center;
+        gap: 20px;
 
-        p{
-            font-size: 18px;
-            color: rgba(241, 245, 249, 0.7);
+        .Btn{
+            padding: 8px 18px;
+            border-radius: 15px;        
+            font-size: 16px;
             font-family: $font-family-body;
-            width: 680px;
-            line-height: 28px;
-            margin: 30px 0;
-            text-align: start;
-
+            font-weight: 500;
+        }
+        a{
+            text-decoration: none;
+            background: rgba(34, 211, 238, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+           border: 1px solid rgba(34, 211, 238, 0.1);
+           transition: all 0.3s ease;
+        }
+        a:hover{
+             background: rgba(34, 211, 238, 0.2);
+             border-color: rgba(34, 211, 238, 0.2);
         }
 
+        .hire{
+            background: #22d3ee;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .hire:focus{
+            background: transparent;
+            color: #22d3ee;
+            border-color: #22d3ee;
+        }
+        
     }
-    .Btn {
-      text-decoration: none;
-      padding: 10px 20px;
-      background-color: $secondary-color;
-      color: #1a1a1a;
-      font-family: $font-family-body;
-      font-weight: 600;
-      width: fit-content;
-      text-transform: capitalize;
-      border: 1px solid transparent;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-
-      &:focus {
-        background-color: transparent;
-        border-color: $secondary-color;
-        color: $secondary-color;
-      }
-    }
+    
+   }
+  
 }
 
