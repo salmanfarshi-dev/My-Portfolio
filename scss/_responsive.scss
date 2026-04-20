@@ -7,6 +7,21 @@
   nav {
   padding: 25px 0px !important;
 }
+  .navbar-collapse {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background: #0f172a;
+    z-index: 999;
+    padding: 20px;
+  }
+  .navbar{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
     nav .navbar-toggler {
     border: 1px solid transparent;
     background: none;
@@ -14,6 +29,7 @@
    .logo a{
     font-size: 18px;
 }
+
   .navbar-toggler:focus {
     box-shadow: none !important;
     border: none;

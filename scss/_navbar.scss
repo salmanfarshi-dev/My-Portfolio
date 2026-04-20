@@ -4,8 +4,12 @@ nav {
   background-color: #0f172a;
   box-shadow: 0 0 20px rgba(7, 105, 105, 0.3);
   padding: 35px 0px !important;
- 
 
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
  .logo a{
     color:#22d3ee;
